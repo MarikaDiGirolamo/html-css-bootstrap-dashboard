@@ -1,0 +1,15 @@
+main {
+    height: 100vh;
+}
+
+.my_sidebar i{
+    color: white;
+    font-size: 1rem;
+    
+}
+
+.my_sidebar{
+    background-image: url(../img/sidebar-bg.png);
+    font-size: 15px;
+    
+}
