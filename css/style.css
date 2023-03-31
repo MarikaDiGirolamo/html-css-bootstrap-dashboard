@@ -1,5 +1,5 @@
 main {
-    height: 100vh;
+    height: calc(100vh - 90px);
 }
 
 .my_sidebar i{
@@ -11,5 +11,5 @@ main {
 .my_sidebar{
     background-image: url(../img/sidebar-bg.png);
     font-size: 15px;
-    
+
 }
