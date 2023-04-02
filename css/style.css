@@ -1,15 +1,54 @@
-main {
-    height: calc(100vh - 90px);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: calc(100vh - 60px)
 }
 
 .my_sidebar i{
     color: white;
     font-size: 1rem;
-    
+
 }
 
 .my_sidebar{
+    margin-top: 60px;
     background-image: url(../img/sidebar-bg.png);
+    background-color: var(--bg-sidebar);
     font-size: 15px;
+    text-transform: lowercase;
+}
 
+/* MAIN */
+
+main .container-fluid {
+    padding-left: 0;
+}
+
+.main_top{
+    margin-top: 60px;
+    background-color: var(--bg-main_top);
+}
+
+/* Blue Row */
+
+.pill {
+    background-color: var(--pills);
+}
+
+/* Table */
+
+.my_table{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.my_table h2{
+    border-bottom: 1px solid lightgray;
+}
+.avatar{
+    height: 30px;
 }
